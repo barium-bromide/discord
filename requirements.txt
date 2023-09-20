@@ -1,0 +1,4 @@
+py-cord==1.7.3
+Flask
+python-dotenv
+replicate
