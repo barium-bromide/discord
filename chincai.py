@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from server import run
 import random
 
+load_dotenv()
+
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='.', intents=intents)
 
